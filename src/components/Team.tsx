@@ -11,10 +11,10 @@ const teamMembers = [
     image: teamImagesDir + 'saravan.jpeg',
     bio: 'Third year undergraduate in Electrical Engineering',
     social: {
-      linkedin: '',
-      github: '',
-      email: '',
-      instagram: ''
+      linkedin: 'https://www.linkedin.com/in/aditya-patel-98584b327/',
+      github: 'https://github.com/kaabooom',
+      email: '24B3949@iitb.ac.in',
+      instagram: 'https://www.instagram.com/aadi_16.1/'
     }
   },
   {
@@ -24,10 +24,10 @@ const teamMembers = [
     image: teamImagesDir + 'srivathsa.jpg',
     bio: 'Third year undergraduate in Metallurgical Engineering And Material Sciences',
     social: {
-      linkedin: '',
-      github: '',
-      email: '',
-      instagram: ''
+      linkedin: 'https://www.linkedin.com/in/daksh-makwana-698253326',
+      github: 'https://github.com/DAKMAK2006',
+      email: 'makwanadaksh01@gmail.com',
+      instagram: '#'
     }
   },
   {
@@ -125,13 +125,13 @@ const teamMembers = [
     id: 10,
     name: 'Ishika Goyal',
     role: 'Convenor',
-    image: teamImagesDir + 'ishika.jpeg',
+    image: teamImagesDir + 'ishika.jpg',
     bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: '',
-      github: '',
-      email: '',
-      instagram: ''
+      linkedin: '#',
+      github: 'https://github.com/ishikagoyal06',
+      email: 'goyalishi06@gmail.com',
+      instagram: 'https://www.instagram.com/ishikaa._.goyal_/'
     }
   },
   {
@@ -141,10 +141,10 @@ const teamMembers = [
     image: teamImagesDir + 'raunak.jpg',
     bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: '',
-      github: '',
-      email: '',
-      instagram: ''
+      linkedin: 'https://www.linkedin.com/in/raunak-roy1',
+      github: 'https://github.com/RRoy4',
+      email: 'raunak.roy1@gmail.com',
+      instagram: '#'
     }
   },
   {
@@ -231,7 +231,7 @@ const Team = () => {
           {renderTeamRow(coreTeamRow2, "grid-cols-1 md:grid-cols-2 lg:grid-cols-4")}
           
           {/* Modified last row - centered 3-column layout */}
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-8 justify-center max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-8 justify-center max-w-2xl mx-auto">          
             {coreTeamRow3.map((member) => (
               <div
                 key={member.id}
