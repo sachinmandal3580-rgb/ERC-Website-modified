@@ -6,171 +6,158 @@ const teamImagesDir = "/team/images/";
 const teamMembers = [
   {
     id: 1,
-    name: 'Saravan Kumar B.',
+    name: 'Aditya Patel',
     role: 'Institute Electronics & Robotics Secretary',
     image: teamImagesDir + 'saravan.jpeg',
     bio: 'Third year undergraduate in Electrical Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/saravan-kumar-boddeda-0351b1294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      github: 'https://github.com/LunarLogician007',
-      email: 'boddedask@gmail.com',
-      instagram: 'https://instagram.com/b_saravan_kumar'
+      linkedin: '',
+      github: '',
+      email: '',
+      instagram: ''
     }
   },
   {
     id: 2,
-    name: 'Srivathsa Thotakura',
+    name: 'Daksh Makhwana',
     role: 'Electronics and Robotics Club Manager',
     image: teamImagesDir + 'srivathsa.jpg',
-    bio: 'Pre-final year undergraduate in Electrical Engineering',
+    bio: 'Third year undergraduate in Metallurgical Engineering And Material Sciences',
     social: {
-      linkedin: 'https://linkedin.com/in/srivathsahere',
-      github: 'https://github.com/semicolonmissin',
-      email: 'srivathsa.thotakura@iitb.ac.in',
-      instagram: 'https://instagram.com/voidsrivathsa'
+      linkedin: '',
+      github: '',
+      email: '',
+      instagram: ''
     }
   },
   {
     id: 3,
-    name: 'Aditya Patel',
+    name: 'Sachin Mandal',
     role: 'Convenor',
-    image: teamImagesDir + 'aditya.jpg',
-    bio: 'Sophomore undergraduate in Electrical Engineering',
+    image: teamImagesDir + 'sachin.jpg',
+    bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/aditya-patel-98584b327/',
-      github: 'https://github.com/kaabooom',
-      email: '24B3949@iitb.ac.in',
-      instagram: 'https://www.instagram.com/aadi_16.1/'
+      linkedin: 'https://www.linkedin.com/in/sachin-mandal-iitb',
+      github: 'https://github.com/sachinmandal3580-rgb',
+      email: 'sachinmandal7639@gmail.com',
+      instagram: 'https://www.instagram.com/sachin_mandal001/'
     }
   },
   {
     id: 4,
-    name: 'Aswath Sahoo',
+    name: 'Santhosh Senthilmurugan',
     role: 'Convenor',
     image: teamImagesDir + 'aswath.jpeg',
-    bio: 'Sophomore undergraduate in Mechanical Engineering',
+    bio: 'Sophomore undergraduate in Electrical Engineering',
     social: {
-      linkedin: 'http://linkedin.com/in/aswath-sahoo-a7b70b235',
-      github: 'https://github.com/Aswath0929',
-      email: 'aswath_sahoo@yahoo.com',
-      instagram: 'https://www.instagram.com/aswathsahoo?igsh=M3RncTYzN2J4bDNi&utm_source=qr'
+      linkedin: 'https://www.linkedin.com/in/santhosh-s-74a203384?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+      github: 'https://github.com/Santhosh007joker',
+      email: 'santhoshsenthil800@gmail.com',
+      instagram: '#'
     }
   },
   {
     id: 5,
-    name: 'Daksh Makwana',
+    name: 'Ayush Goel',
     role: 'Convenor',
-    image: teamImagesDir + 'daksh.jpg',
+    image: teamImagesDir + 'ayush.jpg',
     bio: 'Sophomore undergraduate in Metallurgical Engineering and Material Sciences',
     social: {
-      linkedin: 'https://www.linkedin.com/in/daksh-makwana-698253326',
-      github: 'https://github.com/DAKMAK2006',
-      email: 'makwanadaksh01@gmail.com',
-      instagram: '#'
+      linkedin: 'https://www.linkedin.com/in/ayush-goel-823b7a378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      github: 'https://github.com/AyushGoel06',
+      email: 'ayushgoel0610@gmail.com',
+      instagram: 'https://www.instagram.com/ayushgoel._?igsh=MW5jaGN6ZjdiN3o5Yw=='
     }
   },
   {
     id: 6,
-    name: 'Dhruv Singla',
+    name: 'Diya Dholakia',
     role: 'Convenor',
-    image: teamImagesDir + 'dhruv.jpeg',
-    bio: 'Sophomore undergraduate in Electrical Engineering',
+    image: teamImagesDir + 'diya.jpg',
+    bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/dhruv-singla-99b8b6320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-      github: 'https://github.com/Dhuvsingla16',
-      email: 'sngla.dhrv@gmail.com',
-      instagram: 'https://www.instagram.com/dhruvsingla16?igsh=MTVkb3hsd3A1eXVraQ=='
+      linkedin: '',
+      github: '',
+      email: '',
+      instagram: ''
     }
   },
   {
     id: 7,
-    name: 'Sai Durga Esha Y.',
+    name: 'Maulik Khandelwal',
     role: 'Convenor',
-    image: teamImagesDir + 'esha.jpg',
-    bio: 'Sophomore undergraduate in Mechanical Engineering',
+    image: teamImagesDir + 'maulik.jpg',
+    bio: 'Sophomore undergraduate in Chemical Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/sai-durga-esha-yindukuri-a3616433b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      github: 'https://github.com/ysdesha',
-      email: 'ysdesha@gmail.com',
-      instagram: 'https://www.instagram.com/esha_yindukuri?igsh=MTA5YzR2OGQ1cmlpYg=='
+      linkedin: 'https://www.linkedin.com/in/maulikkhandelwal',
+      github: 'https://github.com/voidmaulikkhandelwal',
+      email: 'maulik.erc@gmail.com',
+      instagram: 'https://www.instagram.com/maulikkhandelwal_/'
     }
   },
   {
     id: 8,
-    name: 'Kunal Gandvane',
+    name: 'Reyansh Agarwal',
     role: 'Convenor',
-    image: teamImagesDir + 'kunal.png',
+    image: teamImagesDir + 'reyansh.jpg',
     bio: 'Sophomore undergraduate in Civil Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/kunal-gandvane-b28062346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      github: 'https://github.com/webserver105',
-      email: 'kunal7sr@gmail.com',
-      instagram: 'https://www.instagram.com/kunal_262k?igsh=b2Rsbmk1bmIwZml3'
+      linkedin: 'https://www.linkedin.com/in/reyansh-agarwal-743a4a386',
+      github: 'https://github.com/Reyansh-007',
+      email: 'reyanshagarwal007@gmail.com',
+      instagram: 'https://www.instagram.com/reyansh_298/'
     }
   },
   {
     id: 9,
-    name: 'Kunal Paroda',
+    name: 'Ratnala Srisiva Yashasri',
     role: 'Convenor',
-    image: teamImagesDir + 'paroda.jpg',
-    bio: 'Sophomore undergraduate in Aerospace Engineering',
+    image: teamImagesDir + 'yashasri.jpg',
+    bio: 'Sophomore undergraduate in Electrical Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/kunal-paroda-126180225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      github: 'http://github.com/Aero71maverick',
-      email: 'kunalparoda@gmail.com',
-      instagram: 'http://instagram.com/kunalparoda'
+      linkedin: 'https://www.linkedin.com/in/yashasri-ratnala-0b9b85379/',
+      github: 'https://github.com/tomandjerry8',
+      email: 'yashasriratnala@gmail.com',
+      instagram: 'https://www.instagram.com/yashas.12x/'
     }
   },
   {
     id: 10,
-    name: 'Lakshmi Deep Chowdary M.',
-    role: 'Postgraduate Convenor',
-    image: teamImagesDir + 'lakshmi.jpeg',
-    bio: 'Final Year Postgraduate in Electrical Engineering',
+    name: 'Ishika Goyal',
+    role: 'Convenor',
+    image: teamImagesDir + 'ishika.jpeg',
+    bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/lakshmi-deep-maddineni/',
-      github: '#',
-      email: 'lakshmideepmaddineni@gmail.com',
-      instagram: '#'
+      linkedin: '',
+      github: '',
+      email: '',
+      instagram: ''
     }
   },
   {
     id: 11,
-    name: 'Radhika Agarwal',
+    name: 'Raunak Roy',
     role: 'Convenor',
-    image: teamImagesDir + 'radhika.jpg',
-    bio: 'Sophomore undergraduate in Engineering Physics',
+    image: teamImagesDir + 'raunak.jpg',
+    bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: '#',
-      github: 'https://github.com/Radhika-B1084',
-      email: 'radhu1402@gmail.com',
-      instagram: 'https://www.instagram.com/radhikaag__?igsh=MWc4MmdpYTlvYzJnYQ=='
+      linkedin: '',
+      github: '',
+      email: '',
+      instagram: ''
     }
   },
   {
     id: 12,
-    name: 'Sagar Venkatesh',
+    name: 'Sarthak Goel',
     role: 'Convenor',
-    image: teamImagesDir + 'sagar.jpg',
-    bio: 'Sophomore undergraduate in Computer Science and Engineering',
+    image: teamImagesDir + 'sarthak.jpg',
+    bio: 'Sophomore undergraduate in Electrical Engineering',
     social: {
-      linkedin: 'https://www.linkedin.com/in/sagar-venkatesh-a3a800318/',
-      github: 'https://github.com/Sagarv812',
-      email: 'sagarv812@gmail.com',
-      instagram: 'https://www.instagram.com/sagarv812/'
-    }
-  },
-  {
-    id: 13,
-    name: 'Videep Reddy Jalapally',
-    role: 'Convenor',
-    image: teamImagesDir + 'videep.png',
-    bio: 'Sophomore undergraduate in Computer Science and Engineering',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/videep-reddy-jalapally-a2439334a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-      github: 'https://github.com/Jadeninja-23a',
-      email: 'mail4videep @gmail.com',
-      instagram: 'https://www.instagram.com/videep_23a?igsh=MXpqMXFnYnM5ZHBi&utm_source=qr'
+      linkedin: 'https://www.linkedin.com/in/sarthak-goel-b6695337b?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+      github: 'https://github.com/Saarthak43',
+      email: '25b1308@iitb.ac.in',
+      instagram: 'https://www.instagram.com/sarthakkkgoel?igsh=MW5ydWcxZzh6NzFtbg=='
     }
   }
 ];
