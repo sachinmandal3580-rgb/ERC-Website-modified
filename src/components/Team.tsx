@@ -47,7 +47,7 @@ const teamMembers = [
     id: 4,
     name: 'Santhosh Senthilmurugan',
     role: 'Convenor',
-    image: teamImagesDir + 'aswath.jpeg',
+    image: teamImagesDir + 'santhosh.jpg',
     bio: 'Sophomore undergraduate in Electrical Engineering',
     social: {
       linkedin: 'https://www.linkedin.com/in/santhosh-s-74a203384?utm_source=share_via&utm_content=profile&utm_medium=member_android',
