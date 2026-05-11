@@ -8,11 +8,11 @@ const teamMembers = [
     id: 1,
     name: 'Aditya Patel',
     role: 'Institute Electronics & Robotics Secretary',
-    image: teamImagesDir + 'saravan.jpeg',
+    image: teamImagesDir + 'aditya.jpg',
     bio: 'Third year undergraduate in Electrical Engineering',
     social: {
       linkedin: 'https://www.linkedin.com/in/aditya-patel-98584b327/',
-      github: 'https://github.com/kaabooom',
+      github: 'https://github.com/thee-fool',
       email: '24B3949@iitb.ac.in',
       instagram: 'https://www.instagram.com/aadi_16.1/'
     }
@@ -21,7 +21,7 @@ const teamMembers = [
     id: 2,
     name: 'Daksh Makhwana',
     role: 'Electronics and Robotics Club Manager',
-    image: teamImagesDir + 'srivathsa.jpg',
+    image: teamImagesDir + 'daksh.jpg',
     bio: 'Third year undergraduate in Metallurgical Engineering And Material Sciences',
     social: {
       linkedin: 'https://www.linkedin.com/in/daksh-makwana-698253326',
@@ -76,10 +76,10 @@ const teamMembers = [
     image: teamImagesDir + 'diya.jpg',
     bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: '',
-      github: '',
-      email: '',
-      instagram: ''
+      linkedin: 'https://www.linkedin.com/in/diya-dholakia-34727b388?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+      github: 'https://github.com/diyaadholakiaa',
+      email: 'diyaa.dholakiaa@gmail.com',
+      instagram: 'https://www.instagram.com/diyaadholakiaa?igsh=MXAwZWJzdms1Ym83aQ=='
     }
   },
   {
@@ -128,7 +128,7 @@ const teamMembers = [
     image: teamImagesDir + 'ishika.jpg',
     bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/ishika-goyal-36922840a?utm_source=share_via&utm_content=profile&utm_medium=member_android',
       github: 'https://github.com/ishikagoyal06',
       email: 'goyalishi06@gmail.com',
       instagram: 'https://www.instagram.com/ishikaa._.goyal_/'
