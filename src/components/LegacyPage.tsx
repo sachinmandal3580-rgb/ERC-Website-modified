@@ -15,6 +15,7 @@ const LegacyPage = () => {
   
   // Team data with years and image paths - ordered from 2020 to 2024
   const teams = [
+    { year: 2025, image: '/team/images/2025-26.jpg' },
     { year: 2024, image: '/team/images/2024-25.jpg' },
     { year: 2023, image: '/team/images/2023-24.jpg' },
     { year: 2022, image: '/team/images/2022-23.jpg' },
@@ -83,7 +84,7 @@ const LegacyPage = () => {
         </div>
       </section>
 
-      {/* Slide 2: Team 2020 - Image left, text right */}
+      {/* Slide 2: Team 2025 - Image left, text right */}
       <section className="scroll-section flex items-center justify-center py-16 md:py-24">
         <div className="max-w-6xl w-full px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -110,16 +111,16 @@ const LegacyPage = () => {
               viewport={{ once: true }}
               className="md:pl-10"
             >
-              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2024-25</h2>
+              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2025-26</h2>
               <p className="text-gray-300 text-xl max-w-md">
-                Led by Ayush Prasad & Kyari Ponkiya
+                Led by Saravan Kumar B. & Srivathsa Thotakura
               </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Slide 3: Team 2021 - Image right, text left */}
+      {/* Slide 3: Team 2024 - Image right, text left */}
       <section className="scroll-section flex items-center justify-center py-16 md:py-24">
         <div className="max-w-6xl w-full px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -148,16 +149,16 @@ const LegacyPage = () => {
               viewport={{ once: true }}
               className="md:order-1 md:pr-10 md:text-right"
             >
-              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2023-24</h2>
+              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2024-25</h2>
               <p className="text-gray-300 text-xl max-w-md md:ml-auto">
-                Led by Anuj Bangad & Kushal Agarwal
+                Led by Ayush Prasad & Kyari Ponkiya
               </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Slide 4: Team 2022 - Image left, text right */}
+      {/* Slide 4: Team 2023 - Image left, text right */}
       <section className="scroll-section flex items-center justify-center py-16 md:py-24">
         <div className="max-w-6xl w-full px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -184,16 +185,16 @@ const LegacyPage = () => {
               viewport={{ once: true }}
               className="md:pl-10"
             >
-              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2022-23</h2>
+              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2023-24</h2>
               <p className="text-gray-300 text-xl max-w-md">
-                Led by Sourabh Hanje & Tejas Amritkar
+                Led by Anuj Bangad & Kushal Agarwal
               </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Slide 5: Team 2023 - Image right, text left */}
+      {/* Slide 5: Team 2022 - Image right, text left */}
       <section className="scroll-section flex items-center justify-center py-16 md:py-24">
         <div className="max-w-6xl w-full px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -222,16 +223,16 @@ const LegacyPage = () => {
               viewport={{ once: true }}
               className="md:order-1 md:pr-10 md:text-right"
             >
-              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2021-22</h2>
+              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2022-23</h2>
               <p className="text-gray-300 text-xl max-w-md md:ml-auto">
-                Led by Sharvaree Sinkar & Sidharth Mundhra
+                Led by Sourabh Hanje & Tejas Amritkar
               </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Slide 6: Team 2024 - Image left, text right */}
+      {/* Slide 6: Team 2021 - Image left, text right */}
       <section className="scroll-section flex items-center justify-center py-16 md:py-24">
         <div className="max-w-6xl w-full px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -258,9 +259,9 @@ const LegacyPage = () => {
               viewport={{ once: true }}
               className="md:pl-10"
             >
-              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2020-21</h2>
+              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2021-22</h2>
               <p className="text-gray-300 text-xl max-w-md">
-                Led by Shubham Agrawal & Shubham Lohiya
+                Led by Sharvaree Sinkar & Sidharth Mundhra
               </p>
             </motion.div>
           </div>
@@ -268,7 +269,7 @@ const LegacyPage = () => {
       </section>
 
 
-      {/* Slide 7: Team 2023 - Image right, text left */}
+      {/* Slide 7: Team 2020 - Image right, text left */}
       <section className="scroll-section flex items-center justify-center py-16 md:py-24">
         <div className="max-w-6xl w-full px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -297,8 +298,44 @@ const LegacyPage = () => {
               viewport={{ once: true }}
               className="md:order-1 md:pr-10 md:text-right"
             >
-              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2019-20</h2>
+              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2020-21</h2>
               <p className="text-gray-300 text-xl max-w-md md:ml-auto">
+                Led by Shubham Agrawal & Shubham Lohiya
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Slide 8: Team 2019 - Image left, text right */}
+      <section className="scroll-section flex items-center justify-center py-16 md:py-24">
+        <div className="max-w-6xl w-full px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true, margin: "-20%" }}
+              className="relative"
+            >
+              <div className="absolute -inset-5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl opacity-70 blur-xl"></div>
+              <div className="relative bg-gray-800 rounded-xl overflow-hidden border border-gray-700 shadow-2xl aspect-video">
+                <img 
+                  src={teams[6].image} 
+                  alt={`Team ${teams[6].year}`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+              viewport={{ once: true }}
+              className="md:pl-10"
+            >
+              <h2 className="text-5xl md:text-7xl font-playfair mb-8">Team 2019-20</h2>
+              <p className="text-gray-300 text-xl max-w-md">
                 Led by Aniruddha Mittal &  Jian Vora
               </p>
             </motion.div>
@@ -306,7 +343,7 @@ const LegacyPage = () => {
         </div>
       </section>
 
-      {/* Slide 8: Full-screen Legacy Continuation */}
+      {/* Slide 9: Full-screen Legacy Continuation */}
       <section className="scroll-section flex items-center justify-center relative min-h-screen">
         <motion.div
           ref={finalTextRef}

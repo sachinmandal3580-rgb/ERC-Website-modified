@@ -7,7 +7,7 @@ const teamMembers = [
   {
     id: 1,
     name: 'Aditya Patel',
-    role: 'Institute Electronics & Robotics Secretary',
+    role: 'Electronics & Robotics Club Secretary',
     image: teamImagesDir + 'aditya.jpg',
     bio: 'Third year undergraduate in Electrical Engineering',
     social: {
