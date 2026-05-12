@@ -34,7 +34,7 @@ const teamMembers = [
     id: 3,
     name: 'Sachin Mandal',
     role: 'Convenor',
-    image: teamImagesDir + 'sachin.jpg',
+    image: teamImagesDir + 'sachin.png',
     bio: 'Sophomore undergraduate in Mechanical Engineering',
     social: {
       linkedin: 'https://www.linkedin.com/in/sachin-mandal-iitb',
@@ -99,7 +99,7 @@ const teamMembers = [
     id: 8,
     name: 'Reyansh Agarwal',
     role: 'Convenor',
-    image: teamImagesDir + 'reyansh.jpg',
+    image: teamImagesDir + 'reyansh.png',
     bio: 'Sophomore undergraduate in Civil Engineering',
     social: {
       linkedin: 'https://www.linkedin.com/in/reyansh-agarwal-743a4a386',
